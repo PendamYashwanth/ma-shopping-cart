@@ -92,7 +92,6 @@ function addToCart(product) {
   } else {
     shoppingCart.push({ ...product });
   }
-  console.log(shoppingCart);
   updateCart(); // Update the cart display
 }
 
